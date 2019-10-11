@@ -1,0 +1,16 @@
+[package]
+name = "consul-client"
+version = "0.1.0"
+authors = ["zerosign <r1nlx0@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "0.12.28"
+serde = { version = "1.0.91", features = ["derive"]}
+serde_derive = "1.0.91"
+serde_json = "1.0.39"
+tokio = "0.1.19"
+env_logger = "0.6.1"
+log = "0.4.6"
